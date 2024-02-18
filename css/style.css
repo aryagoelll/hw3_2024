@@ -79,7 +79,7 @@ footer{
 
 
 .text-block{
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 0.8);
   border: 10px solid black;
   padding: 30px;
 }
@@ -174,7 +174,7 @@ first div in the grid  and place it in the grid. */
   background-size: cover;
   background-attachment: fixed; /* This creates the parallax effect */
   background-position: center;
-  /*height: 100vh;*/
+  height: 100vh;
 }
 
 
@@ -236,6 +236,10 @@ first div in the grid  and place it in the grid. */
     place-items: center;
     text-align: center;
     height: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* Add your media query here */
