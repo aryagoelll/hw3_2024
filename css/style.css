@@ -162,7 +162,6 @@ nav a:focus {
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: auto auto auto auto auto;
   row-gap: 15px;
   align-content: center;
 }
@@ -188,7 +187,7 @@ first div in the grid  and place it in the grid. */
 
       .about {
         grid-column: 2 / span 1; /* Begin in the 2nd column and span one column */
-        grid-row: 2 / span 3;            /* Begin on the 2nd row */
+        grid-row: 2;            /* Begin on the 2nd row */
       }
       
       .method {
