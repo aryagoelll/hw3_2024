@@ -188,6 +188,8 @@ first div in the grid  and place it in the grid. */
       .about {
         grid-column: 2 / span 1; /* Begin in the 2nd column and span one column */
         grid-row: 2;            /* Begin on the 2nd row */
+        padding: 50px;
+        gap: 50px;
       }
       
       .method {
