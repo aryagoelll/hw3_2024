@@ -175,7 +175,6 @@ first div in the grid  and place it in the grid. */
   background-size: cover;
   background-attachment: fixed; /* This creates the parallax effect */
   background-position: center;
-  height: 100vh;
 }
 
 
