@@ -188,21 +188,29 @@ first div in the grid  and place it in the grid. */
       .about {
         grid-column: 2 / span 1; /* Begin in the 2nd column and span one column */
         grid-row: 2;            /* Begin on the 2nd row */
+        margin-top: 10%;
+        margin-bottom: 10%;
       }
       
       .method {
         grid-column: 2 / span 1;
         grid-row: 3;
+        margin-top: 10%;
+        margin-bottom: 10%;
       }
       
       .clients {
         grid-column: 2 / span 1;
         grid-row: 4;
+        margin-top: 10%;
+        margin-bottom: 10%;
       }
       
       .contact {
         grid-column: 2 / span 1;
         grid-row: 5;
+        margin-top: 10%;
+        margin-bottom: 10%;
       }
 
 
@@ -236,7 +244,6 @@ first div in the grid  and place it in the grid. */
     display: grid;
     place-items: center;
     text-align: center;
-    height: 100%;
 }
 
 * {
